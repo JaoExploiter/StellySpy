@@ -2,7 +2,7 @@
 Made only by ._.kinzin 👻 (My dc name)
 ]]
 
--- Instances: 87 | Scripts: 16 | Modules: 0 | Tags: 0
+-- Instances: 90 | Scripts: 17 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.Stop The Cap
@@ -783,49 +783,47 @@ G2L["45"]["Position"] = UDim2.new(-0.08696, 0, 0, 0);
 G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
+-- StarterGui.Stop The Cap.MainFrame.Remotes.UIListLayout
+G2L["46"] = Instance.new("UIListLayout", G2L["26"]);
+G2L["46"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
+G2L["46"]["Padding"] = UDim.new(0, 7);
+G2L["46"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.Stop The Cap.MainFrame.Remotes.UIPadding
+G2L["47"] = Instance.new("UIPadding", G2L["26"]);
+G2L["47"]["PaddingTop"] = UDim.new(0, 10);
+G2L["47"]["PaddingBottom"] = UDim.new(0, 2);
+
+
+-- StarterGui.Stop The Cap.MainFrame.Remotes.LocalScript
+G2L["48"] = Instance.new("LocalScript", G2L["26"]);
+
+
+
 -- StarterGui.Stop The Cap.MainFrame.Assets
-G2L["46"] = Instance.new("Folder", G2L["c"]);
-G2L["46"]["Name"] = [[Assets]];
+G2L["49"] = Instance.new("Folder", G2L["c"]);
+G2L["49"]["Name"] = [[Assets]];
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder
-G2L["47"] = Instance.new("Folder", G2L["46"]);
+G2L["4a"] = Instance.new("Folder", G2L["49"]);
 
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.LocalScript
-G2L["48"] = Instance.new("LocalScript", G2L["47"]);
-G2L["48"]["Enabled"] = false;
-G2L["48"]["Disabled"] = true;
+G2L["4b"] = Instance.new("LocalScript", G2L["4a"]);
+G2L["4b"]["Enabled"] = false;
+G2L["4b"]["Disabled"] = true;
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.Decal
-G2L["49"] = Instance.new("Decal", G2L["47"]);
+G2L["4c"] = Instance.new("Decal", G2L["4a"]);
 
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.Frame
-G2L["4a"] = Instance.new("Frame", G2L["47"]);
-G2L["4a"]["BorderSizePixel"] = 0;
-G2L["4a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4a"]["Size"] = UDim2.new(0, 100, 0, 100);
-G2L["4a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4a"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111
-G2L["4b"] = Instance.new("ScreenGui", G2L["47"]);
-G2L["4b"]["Name"] = [[WITH A TEST!1111111111111]];
-G2L["4b"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
-
-
--- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Decal
-G2L["4c"] = Instance.new("Decal", G2L["4b"]);
-
-
-
--- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Frame
-G2L["4d"] = Instance.new("Frame", G2L["4b"]);
+G2L["4d"] = Instance.new("Frame", G2L["4a"]);
 G2L["4d"]["BorderSizePixel"] = 0;
 G2L["4d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["4d"]["Size"] = UDim2.new(0, 100, 0, 100);
@@ -833,86 +831,106 @@ G2L["4d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["4d"]["BackgroundTransparency"] = 1;
 
 
+-- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111
+G2L["4e"] = Instance.new("ScreenGui", G2L["4a"]);
+G2L["4e"]["Name"] = [[WITH A TEST!1111111111111]];
+G2L["4e"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Decal
+G2L["4f"] = Instance.new("Decal", G2L["4e"]);
+
+
+
+-- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Frame
+G2L["50"] = Instance.new("Frame", G2L["4e"]);
+G2L["50"]["BorderSizePixel"] = 0;
+G2L["50"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["50"]["Size"] = UDim2.new(0, 100, 0, 100);
+G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["BackgroundTransparency"] = 1;
+
+
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Frame.LocalScript
-G2L["4e"] = Instance.new("LocalScript", G2L["4d"]);
+G2L["51"] = Instance.new("LocalScript", G2L["50"]);
 
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111
-G2L["4f"] = Instance.new("ScreenGui", G2L["47"]);
-G2L["4f"]["Enabled"] = false;
-G2L["4f"]["Name"] = [[WITH A TEST11111111111111]];
-G2L["4f"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["52"] = Instance.new("ScreenGui", G2L["4a"]);
+G2L["52"]["Enabled"] = false;
+G2L["52"]["Name"] = [[WITH A TEST11111111111111]];
+G2L["52"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.Frame
-G2L["50"] = Instance.new("Frame", G2L["4f"]);
-G2L["50"]["Interactable"] = false;
-G2L["50"]["BorderSizePixel"] = 0;
-G2L["50"]["BackgroundColor3"] = Color3.fromRGB(71, 71, 71);
-G2L["50"]["Size"] = UDim2.new(0, 276, 0, 159);
-G2L["50"]["Position"] = UDim2.new(0.35853, 0, 0.38793, 0);
-G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["50"]["BackgroundTransparency"] = 0.35;
+G2L["53"] = Instance.new("Frame", G2L["52"]);
+G2L["53"]["Interactable"] = false;
+G2L["53"]["BorderSizePixel"] = 0;
+G2L["53"]["BackgroundColor3"] = Color3.fromRGB(71, 71, 71);
+G2L["53"]["Size"] = UDim2.new(0, 276, 0, 159);
+G2L["53"]["Position"] = UDim2.new(0.35853, 0, 0.38793, 0);
+G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["53"]["BackgroundTransparency"] = 0.35;
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.Frame.UICorner
-G2L["51"] = Instance.new("UICorner", G2L["50"]);
+G2L["54"] = Instance.new("UICorner", G2L["53"]);
 
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.Frame.TextLabel
-G2L["52"] = Instance.new("TextLabel", G2L["50"]);
-G2L["52"]["TextWrapped"] = true;
-G2L["52"]["BorderSizePixel"] = 0;
-G2L["52"]["TextTransparency"] = 0.64;
-G2L["52"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["52"]["TextSize"] = 35;
-G2L["52"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["52"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["52"]["BackgroundTransparency"] = 1;
-G2L["52"]["Size"] = UDim2.new(0, 276, 0, 111);
-G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["52"]["Text"] = [[THIS VERSION IS NOT ORIGINAL]];
-G2L["52"]["Position"] = UDim2.new(0, 0, 0.0566, 0);
+G2L["55"] = Instance.new("TextLabel", G2L["53"]);
+G2L["55"]["TextWrapped"] = true;
+G2L["55"]["BorderSizePixel"] = 0;
+G2L["55"]["TextTransparency"] = 0.64;
+G2L["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["TextSize"] = 35;
+G2L["55"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["55"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["BackgroundTransparency"] = 1;
+G2L["55"]["Size"] = UDim2.new(0, 276, 0, 111);
+G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["55"]["Text"] = [[THIS VERSION IS NOT ORIGINAL]];
+G2L["55"]["Position"] = UDim2.new(0, 0, 0.0566, 0);
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.Frame.TextLabel.UIStroke
-G2L["53"] = Instance.new("UIStroke", G2L["52"]);
-G2L["53"]["Transparency"] = 0.61;
+G2L["56"] = Instance.new("UIStroke", G2L["55"]);
+G2L["56"]["Transparency"] = 0.61;
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.Frame.a
-G2L["54"] = Instance.new("TextLabel", G2L["50"]);
-G2L["54"]["BorderSizePixel"] = 0;
-G2L["54"]["TextTransparency"] = 0.62;
-G2L["54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["54"]["TextSize"] = 19;
-G2L["54"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["54"]["TextColor3"] = Color3.fromRGB(18, 0, 255);
-G2L["54"]["BackgroundTransparency"] = 1;
-G2L["54"]["Size"] = UDim2.new(0, 128, 0, 18);
-G2L["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["54"]["Text"] = [[Made only by ._.kinzin]];
-G2L["54"]["Name"] = [[a]];
-G2L["54"]["Position"] = UDim2.new(0.26812, 0, 0.83019, 0);
+G2L["57"] = Instance.new("TextLabel", G2L["53"]);
+G2L["57"]["BorderSizePixel"] = 0;
+G2L["57"]["TextTransparency"] = 0.62;
+G2L["57"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["57"]["TextSize"] = 19;
+G2L["57"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["57"]["TextColor3"] = Color3.fromRGB(18, 0, 255);
+G2L["57"]["BackgroundTransparency"] = 1;
+G2L["57"]["Size"] = UDim2.new(0, 128, 0, 18);
+G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["57"]["Text"] = [[Made only by ._.kinzin]];
+G2L["57"]["Name"] = [[a]];
+G2L["57"]["Position"] = UDim2.new(0.26812, 0, 0.83019, 0);
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.Frame.a.UIStroke
-G2L["55"] = Instance.new("UIStroke", G2L["54"]);
-G2L["55"]["Transparency"] = 0.72;
+G2L["58"] = Instance.new("UIStroke", G2L["57"]);
+G2L["58"]["Transparency"] = 0.72;
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST11111111111111.LocalScript
-G2L["56"] = Instance.new("LocalScript", G2L["4f"]);
-G2L["56"]["Enabled"] = false;
-G2L["56"]["Disabled"] = true;
+G2L["59"] = Instance.new("LocalScript", G2L["52"]);
+G2L["59"]["Enabled"] = false;
+G2L["59"]["Disabled"] = true;
 
 
 -- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!!!!!!!!!!!!!!!
-G2L["57"] = Instance.new("ScreenGui", G2L["47"]);
-G2L["57"]["Name"] = [[WITH A TEST!!!!!!!!!!!!!!!]];
-G2L["57"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["5a"] = Instance.new("ScreenGui", G2L["4a"]);
+G2L["5a"]["Name"] = [[WITH A TEST!!!!!!!!!!!!!!!]];
+G2L["5a"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
 
 -- StarterGui.Stop The Cap.Minimized.Bar.TextLabel.LocalScript
@@ -996,10 +1014,11 @@ local function C_9()
 local script = G2L["9"];
 	local b = script.Parent.Parent.Parent
 	local a = b.Parent
-	
+	local sla = script.Parent.Parent
 	script.Parent.MouseButton1Click:Connect(function()
 		b.Enabled = false
 		a.Enabled = true
+		sla.Position = b.Parent.MainFrame.TopBar.Position
 	end)
 	
 	
@@ -1431,11 +1450,27 @@ local script = G2L["29"];
 	end)
 end;
 task.spawn(C_29);
--- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Frame.LocalScript
-local function C_4e()
-local script = G2L["4e"];
+-- StarterGui.Stop The Cap.MainFrame.Remotes.LocalScript
+local function C_48()
+local script = G2L["48"];
+	local player = game.Players.LocalPlayer
+	local gui = player:WaitForChild("PlayerGui")
+	local frame = gui:WaitForChild("Stop The Cap"):WaitForChild("MainFrame"):WaitForChild("Remotes")
+	
+	for i = 8, 14 do
+		local remote = frame:FindFirstChild("Remote" .. i)
+		if remote and remote.Text ~= "" then
+			remote.Visible = false
+		end
+	end
 	
 end;
-task.spawn(C_4e);
+task.spawn(C_48);
+-- StarterGui.Stop The Cap.MainFrame.Assets.Folder.WITH A TEST!1111111111111.Frame.LocalScript
+local function C_51()
+local script = G2L["51"];
+	
+end;
+task.spawn(C_51);
 
 return G2L["1"], require;
