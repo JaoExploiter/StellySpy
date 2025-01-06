@@ -1440,7 +1440,8 @@ local script = G2L["29"];
 	local ab = script.Parent.Parent.Parent.TextBox
 	script.Parent.MouseButton1Click:Connect(function()
 		ab.Text = [[
-	-- Made by ._.kinzin on discord.
+	-- Made by ._.kinzin on discord!
+        -- Try V3 on my channel!!!
 	-- Sub @omaganameMag-7-K on youtube!
 	-- Update logs:
 	-- Added a page 2
